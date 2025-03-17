@@ -5,7 +5,7 @@ metadata:
   labels:
     purpose: "taint-demo"
 spec:
-  nodeselector:
+  nodeSelector:
     topology.kubernetes.io/zone: us-east-1c
   containers:
   - name: nginx
